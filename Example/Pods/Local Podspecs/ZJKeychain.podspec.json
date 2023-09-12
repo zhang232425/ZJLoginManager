@@ -1,0 +1,26 @@
+{
+  "name": "ZJKeychain",
+  "version": "0.1.0",
+  "summary": "A short description of ZJKeychain.",
+  "homepage": "https://github.com/zhang232425/ZJKeychain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhang232425": "519301084@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhang232425/ZJKeychain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJKeychain/Classes/**/*",
+  "dependencies": {
+    "KeychainSwift": [
+
+    ]
+  }
+}

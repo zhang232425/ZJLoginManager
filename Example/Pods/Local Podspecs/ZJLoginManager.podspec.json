@@ -1,0 +1,38 @@
+{
+  "name": "ZJLoginManager",
+  "version": "0.1.0",
+  "summary": "A short description of ZJLoginManager.",
+  "homepage": "https://github.com/51930184@qq.com/ZJLoginManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "51930184@qq.com": "yonathan@asetku.com"
+  },
+  "source": {
+    "git": "https://github.com/51930184@qq.com/ZJLoginManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJLoginManager/Classes/**/*",
+  "resource_bundles": {
+    "ZJMain": [
+      "ZJLoginManager/Assets/**/*"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "ZJRequest": [
+
+    ],
+    "ZJKeychain": [
+
+    ],
+    "ZJCommonDefines": [
+
+    ]
+  }
+}

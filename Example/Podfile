@@ -1,13 +1,16 @@
 use_frameworks!
-
 platform :ios, '10.0'
 
+source 'git@github.com:zhang232425/ZJSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+install! 'cocoapods', :deterministic_uuids => false
+
 target 'ZJLoginManager_Example' do
+  
   pod 'ZJLoginManager', :path => '../'
 
-  target 'ZJLoginManager_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'ZJRequest',           :git => 'git@github.com:zhang232425/ZJRequest.git', :branch => 'main'
+  pod 'ZJCommonDefines',     :git => 'git@github.com:zhang232425/ZJCommonDefines.git', :branch => 'main'
+  pod 'ZJKeychain',          :git => 'git@github.com:zhang232425/ZJKeychain.git', :branch => 'main'
+  
 end

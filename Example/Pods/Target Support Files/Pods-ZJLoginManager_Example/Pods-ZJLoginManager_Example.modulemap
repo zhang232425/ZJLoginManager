@@ -1,0 +1,6 @@
+framework module Pods_ZJLoginManager_Example {
+  umbrella header "Pods-ZJLoginManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
